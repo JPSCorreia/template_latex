@@ -7,11 +7,11 @@
 \node[inner sep=0pt] (logo) at (0,0.6)
     {\includegraphics[scale=0.04]{Figures/0. General/linux_penguin.png}};
 {\setstretch{2.0}
-\node[text width = 0.5\textwidth, yshift = 0.5cm, right = 1.25cm of logo](title){\sffamily\huge\reporttitle};
+\node[text width = 0.58\textwidth, yshift = 0.5cm, right = 1.25cm of logo](title){\sffamily\huge\reporttitle};
 }   
 
 
-\node[text width = 0.5\textwidth, yshift = 0.5cm, below = 0.5cm of title](subtitle){\sffamily\Large \reportsubtitle};
+\node[text width = 0.6\textwidth, xshift = 0.1cm, yshift = 0.5cm, below = 0.5cm of title](subtitle){\sffamily\Large \reportsubtitle};
 
 \gettikzxy{(subtitle.south)}{\sffamily\subtitlex}{\subtitley}
 \gettikzxy{(title.north)}{\titlex}{\titley}
@@ -25,12 +25,11 @@
 \centering
 \sffamily
 \large
-\begin{tabu} to 2.8\linewidth {cc}
+\begin{tabu} to 2.8\linewidth{cc}
 \textbf{Realizado por:}\\
 % \hline
 % \vspace{0.25cm}
 \sffamily\reportauthors
-
 \end{tabu}
 
 \end{table}

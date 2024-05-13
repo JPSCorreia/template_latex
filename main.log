@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.9)  13 MAY 2024 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.9)  13 MAY 2024 13:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/correia/Projects/ProjetoFinal_5116/main
-(/home/correia/Projects/ProjetoFinal_5116/main.tex
+**/home/correia/Projects/template_latex/main
+(/home/correia/Projects/template_latex/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -907,12 +907,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  29549 strings out of 476056
- 540123 string characters out of 5793067
+ 540114 string characters out of 5793067
  1945187 words of memory out of 5000000
  50861 multiletter control sequences out of 15000+600000
  600604 words of font info for 243 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 89i,16n,90p,1038b,738s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,90p,1035b,738s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/correia/texmf/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></home/correia/texmf/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on main.pdf (12 pages, 769011 bytes).
 PDF statistics:

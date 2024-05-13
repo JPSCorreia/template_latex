@@ -1,8 +1,58 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{whatIsOpenSource}
+Red Hat.
+\newblock O que é open source?
+\newblock https://www.redhat.com/pt-br/topics/open-source/what-is-open-source.
+
+\bibitem{advantagesOfOpenSource}
+ekipa.
+\newblock As vantagens do open source.
+\newblock https://www.ekipa.pt/as-vantagens-do-open-source/.
+
+\bibitem{advantagesOfProprietary}
+Solutions Hub.
+\newblock Proprietary software definitions.
+\newblock https://solutionshub.epam.com/blog/post/proprietary-software-definition-examples.
+
+\bibitem{kernel}
+Significados.
+\newblock O que é o kernel de um sistema operacional.
+\newblock https://www.significados.com.br/kernel/.
+
+\bibitem{linuxHistory}
+GeeksForGeeks.
+\newblock Linux history.
+\newblock https://www.geeksforgeeks.org/linux-history/.
+
+\bibitem{gnuHistory}
+Curious Minds.
+\newblock The history of free software and open source.
+\newblock https://www.cmpod.net/all-transcripts/history-open-source-free-software-text/.
+
+\bibitem{diverseUsage}
+Lenovo.
+\newblock What is linux used for.
+\newblock https://www.lenovo.com/za/en/faqs/operating-systems/what-is-linux-used-for.
+
+\bibitem{openSourceLicense}
+Open~Source Initiative.
+\newblock The open source definition.
+\newblock https://opensource.org/osd.
 
 \bibitem{openSourceSecurity}
 snyk.
 \newblock Open source security explained.
 \newblock https://snyk.io/series/open-source-security/.
+
+\bibitem{whyOpenSource}
+pimcore.
+\newblock Why open source?
+\newblock https://pimcore.com/en/why-open-source.
+
+\bibitem{stateOfEnterpriseOpenSource}
+Red Hat.
+\newblock The state of enterprise open source, 2022.
+\newblock https://www.redhat.com/en/enterprise-open-source-report/2022.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.9)  13 MAY 2024 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.9)  13 MAY 2024 22:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -772,7 +772,7 @@ Package hyperref Info: Link coloring ON on input line 4.
 \openout4 = `main.out'.
 
  (./Chapters/0. Frontpage.tex
-<Figures/0. General/linux_penguin.png, id=67, 1751.54375pt x 2054.67625pt>
+<Figures/0. General/linux_penguin.png, id=99, 1751.54375pt x 2054.67625pt>
 File: Figures/0. General/linux_penguin.png Graphic file (type png)
 <use Figures/0. General/linux_penguin.png>
 Package pdftex.def Info: Figures/0. General/linux_penguin.png  used on input line 8.
@@ -796,12 +796,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<Figures/0. General/atec.png, id=69, 770.88pt x 475.02469pt>
+<Figures/0. General/atec.png, id=101, 770.88pt x 475.02469pt>
 File: Figures/0. General/atec.png Graphic file (type png)
 <use Figures/0. General/atec.png>
 Package pdftex.def Info: Figures/0. General/atec.png  used on input line 38.
 (pdftex.def)             Requested size: 597.50787pt x 368.19106pt.
-<Figures/0. General/atec_logo_white.png, id=70, 339.2675pt x 149.55875pt>
+<Figures/0. General/atec_logo_white.png, id=102, 339.2675pt x 149.55875pt>
 File: Figures/0. General/atec_logo_white.png Graphic file (type png)
 <use Figures/0. General/atec_logo_white.png>
 Package pdftex.def Info: Figures/0. General/atec_logo_white.png  used on input line 47.
@@ -812,7 +812,7 @@ Package pdftex.def Info: Figures/0. General/atec_logo_white.png  used on input l
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 9.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 4.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -829,12 +829,13 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/b/n' in size <17.28> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 1.
-File: Figures/0. General/linux_penguin.png Graphic file (type png)
-<use Figures/0. General/linux_penguin.png>
-Package pdftex.def Info: Figures/0. General/linux_penguin.png  used on input line 9.
-(pdftex.def)             Requested size: 262.72023pt x 308.18814pt.
+<Figures/0. General/open_vs_closed.png, id=143, 1394.20876pt x 1228.59pt>
+File: Figures/0. General/open_vs_closed.png Graphic file (type png)
+<use Figures/0. General/open_vs_closed.png>
+Package pdftex.def Info: Figures/0. General/open_vs_closed.png  used on input line 17.
+(pdftex.def)             Requested size: 446.15591pt x 393.15683pt.
 )
-<Figures/0. General/atec_2.png, id=103, 224.84pt x 59.22125pt>
+<Figures/0. General/atec_2.png, id=144, 224.84pt x 59.22125pt>
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 17.
@@ -844,80 +845,117 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.17 \newpage
-              [1 <./Figures/0. General/atec_2.png>] (./Chapters/2. Capitulo.tex
+              [1 <./Figures/0. General/atec_2.png> <./Figures/0. General/open_vs_closed.png>] (./Chapters/2. Capitulo.tex
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <17.28> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OMS/phv/b/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 2.
+<Figures/0. General/sistemas_open_source.jpg, id=154, 231.264pt x 179.7114pt>
+File: Figures/0. General/sistemas_open_source.jpg Graphic file (type jpg)
+<use Figures/0. General/sistemas_open_source.jpg>
+Package pdftex.def Info: Figures/0. General/sistemas_open_source.jpg  used on input line 25.
+(pdftex.def)             Requested size: 346.89514pt x 269.5664pt.
+File: Figures/0. General/atec_2.png Graphic file (type png)
+<use Figures/0. General/atec_2.png>
+Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 30.
+(pdftex.def)             Requested size: 45.5573pt x 12.0pt.
+ [2 <./Figures/0. General/sistemas_open_source.jpg>]
+<Figures/0. General/sistemas_proprietarios.jpg, id=164, 1887.05pt x 847.165pt>
+File: Figures/0. General/sistemas_proprietarios.jpg Graphic file (type jpg)
+<use Figures/0. General/sistemas_proprietarios.jpg>
+Package pdftex.def Info: Figures/0. General/sistemas_proprietarios.jpg  used on input line 63.
+(pdftex.def)             Requested size: 377.40332pt x 169.43pt.
 )
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 21.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [2] (./Chapters/3. Capitulo.tex)
+ [3 <./Figures/0. General/sistemas_proprietarios.jpg>] (./Chapters/3. Capitulo.tex
+<Figures/0. General/kernel.png, id=172, 1204.5pt x 950.55125pt>
+File: Figures/0. General/kernel.png Graphic file (type png)
+<use Figures/0. General/kernel.png>
+Package pdftex.def Info: Figures/0. General/kernel.png  used on input line 8.
+(pdftex.def)             Requested size: 240.89574pt x 190.10687pt.
+)
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 25.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [3] (./Chapters/4. Capitulo.tex
-LaTeX Font Info:    Font shape `OMS/phv/b/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2.
+ [4 <./Figures/0. General/kernel.png>] (./Chapters/4. Capitulo.tex
+<Figures/0. General/linux_distros.png, id=183, 108.405pt x 108.1641pt>
+File: Figures/0. General/linux_distros.png Graphic file (type png)
+<use Figures/0. General/linux_distros.png>
+Package pdftex.def Info: Figures/0. General/linux_distros.png  used on input line 17.
+(pdftex.def)             Requested size: 271.01181pt x 270.40955pt.
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
-Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 16.
+Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 22.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [4])
+ [5 <./Figures/0. General/linux_distros.png>]
+<Figures/0. General/super_computer.jpg, id=194, 772.8875pt x 401.5pt>
+File: Figures/0. General/super_computer.jpg Graphic file (type jpg)
+<use Figures/0. General/super_computer.jpg>
+Package pdftex.def Info: Figures/0. General/super_computer.jpg  used on input line 57.
+(pdftex.def)             Requested size: 309.14952pt x 160.59715pt.
+)
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 29.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [5] (./Chapters/5. Capitulo.tex
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 2.
-)
+ [6 <./Figures/0. General/super_computer.jpg>] (./Chapters/5. Capitulo.tex)
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 33.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [6] (./Chapters/6. Capitulo.tex)
+ [7] (./Chapters/6. Capitulo.tex)
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 37.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [7] (./Chapters/7. Capitulo.tex)
+ [8] (./Chapters/7. Capitulo.tex
+<Figures/0. General/enterprise_open_source.jpg, id=214, 700.6175pt x 401.5pt>
+File: Figures/0. General/enterprise_open_source.jpg Graphic file (type jpg)
+<use Figures/0. General/enterprise_open_source.jpg>
+Package pdftex.def Info: Figures/0. General/enterprise_open_source.jpg  used on input line 10.
+(pdftex.def)             Requested size: 420.37373pt x 240.90184pt.
+)
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 41.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [8] (./Chapters/8. Conclusao.tex)
+ [9 <./Figures/0. General/enterprise_open_source.jpg>] (./Chapters/8. Conclusao.tex)
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 45.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [9] (./main.bbl)
+ [10] (./main.bbl)
 File: Figures/0. General/atec_2.png Graphic file (type png)
 <use Figures/0. General/atec_2.png>
 Package pdftex.def Info: Figures/0. General/atec_2.png  used on input line 59.
 (pdftex.def)             Requested size: 45.5573pt x 12.0pt.
- [10] (./main.aux)
+ [11] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7B4F747FE8EA5447A29F22573E7EC8C4;3107.
+(rerunfilecheck)             Checksum: B680973B3AEE89D02A14F18E74CE061A;4068.
  ) 
 Here is how much of TeX's memory you used:
- 29549 strings out of 476056
- 540114 string characters out of 5793067
+ 29726 strings out of 476056
+ 544240 string characters out of 5793067
  1945187 words of memory out of 5000000
- 50861 multiletter control sequences out of 15000+600000
- 600604 words of font info for 243 fonts, out of 8000000 for 9000
+ 50952 multiletter control sequences out of 15000+600000
+ 604046 words of font info for 284 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  89i,16n,90p,1035b,738s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/correia/texmf/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></home/correia/texmf/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (12 pages, 769011 bytes).
+Output written on main.pdf (13 pages, 1303339 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 71833 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 228 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 71932 words of extra memory for PDF output out of 74296 (max. 10000000)
 

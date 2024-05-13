@@ -4,10 +4,10 @@
 
 \begin{tikzpicture}
 
-\node[inner sep=0pt] (logo) at (0,0.6)
-    {\includegraphics[scale=0.04]{Figures/0. General/linux_penguin.png}};
+\node[inner sep=0pt] (logo) at (0,0.65)
+    {\includegraphics[scale=0.05]{Figures/0. General/linux_penguin.png}};
 {\setstretch{2.0}
-\node[text width = 0.58\textwidth, yshift = 0.5cm, right = 1.25cm of logo](title){\sffamily\huge\reporttitle};
+\node[text width = 0.58\textwidth, yshift = 0.35cm, right = 1.25cm of logo](title){\sffamily\huge\reporttitle};
 }   
 
 
@@ -15,10 +15,10 @@
 
 \gettikzxy{(subtitle.south)}{\sffamily\subtitlex}{\subtitley}
 \gettikzxy{(title.north)}{\titlex}{\titley}
-% \draw[line width=1mm, Tue-red]($(logo.east)!0.5!(title.west)$) +(0,\subtitley) -- +(0,\titley);
+\draw[line width=1mm, color_scheme]($(logo.east)!0.5!(title.west)$) +(0,\subtitley - 1cm) -- +(0,\titley - 0.55cm);
 
 \end{tikzpicture}
-\vspace{3cm}
+\vspace{3.5cm}
 % \sffamily\groupnumber
 
 \begin{table}[H]
@@ -26,21 +26,27 @@
 \sffamily
 \large
 \begin{tabu} to 2.8\linewidth{cc}
-\textbf{Realizado por:}\\
-% \hline
-% \vspace{0.25cm}
-\sffamily\reportauthors
+\textbf{Autores:}\\
+\sffamily
+\reportauthors
 \end{tabu}
 
 \end{table}
 
-\sffamily \grouptutor
+\sffamily \large \grouptutor
 
-\tikz[remember picture,overlay]\node[anchor=south,inner sep=0pt] at (current page.south) {\includegraphics[width=\paperwidth]{Figures/0. General/tue_2.png}};
+\tikz[remember picture,overlay]\node[anchor=south,inner sep=0pt] at (current page.south) {\includegraphics[width=\paperwidth]{Figures/0. General/atec.png}};
 
 \mbox{}
 \vfill
-\sffamily \Large \textcolor{white}{\placeanddate} \\
+\begin{figure}[H]
+    \centering
+    \hspace{-0.5cm}
+    \vspace{-0.5cm}
+    % width=\textwidth para imagem da largura do texto
+    \includegraphics[scale=0.5]{Figures/0. General/atec_logo_white.png}
+\end{figure}
+\sffamily \LARGE \textcolor{white}{\placeanddate} \\
 
 
 

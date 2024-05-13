@@ -5,9 +5,6 @@
 This section contains some templates that can be used to create a uniform style within the document. It also shows of the overall formatting of the template, created using the predefined styles from the \texttt{settings.tex} file.
 
 \subsection{General formatting}
-Firstly, the document uses the font mlmodern, using no indent for new paragraphs and commonly uses the color \textcolor{Tue-red}{Tue-red} (the color of the TU/e logo) in its formatting. It uses the \texttt{fancyhdr} package for its headers and footers, using the TU/e logo and report title as the header and the page number as the footer. The template uses custom section, subsection and subsubsection formatting making use of the \texttt{titlesec} package.\\
-The \texttt{hyperref} package is responsible for highlighting and formatting references like figures and tables. For example \cref{table: style 1} or \cref{fig: three images}. It also works for citations \cite{texbook}. Note how figure numbers are numbered according to the format \texttt{<chapter number>.<figure number>}.\\
-
 Bullet lists are also changed globally, for a maximum of 3 levels:
 
 \begin{itemize}
@@ -41,14 +38,14 @@ Similarly numbered lists are also changed document wide:
 \newpage
 
 \subsection{Tables and figures}
-The following table, \cref{table: style 1}, shows a possible format for tables in this document. Alternatively, one can also use the black and white version of this, shown in \cref{table: style 2}. Note that caption labels are in the format \textbf{\textcolor{Tue-red}{Table x.y:} }
+The following table, \cref{table: style 1}, shows a possible format for tables in this document. Alternatively, one can also use the black and white version of this, shown in \cref{table: style 2}. Note that caption labels are in the format \textbf{\textcolor{color_scheme}{Table x.y:} }
 \begin{table}[ht]
-\rowcolors{2}{Tue-red!10}{white}
+\rowcolors{2}{color_scheme!10}{white}
 \centering
 \caption{A table without vertical lines.}
 \begin{tabular}[t]{ccccc}
 \toprule
-\color{Tue-red}\textbf{Column 1}&\color{Tue-red}\textbf{Column 2}&\color{Tue-red}\textbf{Column 3}&\color{Tue-red}\textbf{Column 4}&\color{Tue-red}\textbf{Column 5}\\
+\color{color_scheme}\textbf{Column 1}&\color{color_scheme}\textbf{Column 2}&\color{color_scheme}\textbf{Column 3}&\color{color_scheme}\textbf{Column 4}&\color{color_scheme}\textbf{Column 5}\\
 \midrule
 Entry 1&1&2&3&4\\
 Entry 2&1&2&3&4\\
@@ -76,7 +73,7 @@ Entry 4&1&2&3&4\\
 \label{table: style 2}
 \end{table}
 
-For normal, single image figures, the standard \texttt{\textbackslash begin\{figure\}} environment can be used. For multi-image figures, one could use either the \texttt{\textbackslash begin\{subfigure\}} environment to get a main caption with 3 subcaptions like \cref{fig: three images} or the \texttt{\textbackslash begin\{minipage\}} environment to get 3 independent captions like \cref{fig: style 2 image a} - \ref{fig: style 2 image c}
+% For normal, single image figures, the standard \texttt{\textbackslash begin\{figure\}} environment can be used. For multi-image figures, one could use either the \texttt{\textbackslash begin\{subfigure\}} environment to get a main caption with 3 subcaptions like \cref{fig: three images} or the \texttt{\textbackslash begin\{minipage\}} environment to get 3 independent captions like \cref{fig: style 2 image a} - \ref{fig: style 2 image c}
 
 \begin{figure}[H]
      \centering

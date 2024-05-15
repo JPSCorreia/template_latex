@@ -1,6 +1,6 @@
 \section{Segurança em sistemas operativos \textit{open source}} \label{section: segurança}
 \subsection{Importância da segurança}
-O software de \textit{open source} tornou-se amplamente utilizado nos últimos anos devido à sua natureza colaborativa e pública, o que o torna conveniente tanto para os desenvolvedores como para os atores maliciosos. 
+O software de \textit{open source} tornou-se amplamente utilizado nos últimos anos devido à sua natureza colaborativa e pública, o que o torna conveniente tanto para os desenvolvedores como para os atores maliciosos.
 \par \vspace{6pt}
 Quando adversários descobrem que uma aplicação está exposta a uma vulnerabilidade conhecida publicamente, podem atacar qualquer aplicação desenvolvida utilizando esse código de \textit{open source}. Casos como as vulnerabilidades do \textbf{Log4j} e do \textbf{Apache Struts} demonstram que isso representa um risco real e, por vezes, grave para as organizações. \cite{openSourceSecurity}
 \subsection{Principais riscos}
@@ -8,15 +8,17 @@ A maioria das aplicações nativas em \textit{cloud} depende de componentes de \
 \begin{itemize}
 
   \item \textbf{Vulnerabilidades em dependências}\\
-  Essas vulnerabilidades podem ser tanto conhecidas quanto desconhecidas. As conhecidas incluem aquelas que receberam um número de identificação de vulnerabilidade comum \textbf{(CVE)}, aquelas divulgadas na Internet, aquelas presentes em bases de dados públicas de vulnerabilidades, e aquelas dentro de bases de dados privadas. Em geral, quanto mais conhecida for uma vulnerabilidade, mais urgente é a necessidade de solucioná-la.
+  Estas vulnerabilidades podem ser tanto conhecidas quanto desconhecidas. As conhecidas incluem aquelas que receberam um número de identificação de vulnerabilidade comum (\textbf{CVE}), aquelas divulgadas na Internet, aquelas presentes em bases de dados públicas de vulnerabilidades, e aquelas dentro de bases de dados privadas. Em geral, quanto mais conhecida for uma vulnerabilidade, mais urgente é a necessidade de solucioná-la.
   \par \vspace{6pt}
   Além de rastrear vulnerabilidades, é essencial acompanhar todas as dependências de \textit{open source} dentro de uma aplicação. As dependências transitivas, onde uma dependência depende de outras, são especialmente preocupantes, pois são menos visíveis para ferramentas de segurança e auditorias. Portanto, é útil utilizar ferramentas ou processos que possam identificar e auditar todas as dependências em uma aplicação.
+
   \item \textbf{Riscos de conformidade com licenças}\\
-  Os desenvolvedores precisam compreender cada tipo de licença de software nos pacotes de \textit{open source} que utilizam, para poderem empregar o código de forma compatível. Isso requer conhecimento das estipulações de licenciamento e sua aplicação ao longo dos projetos. 
+  Os desenvolvedores precisam compreender cada tipo de licença de software nos pacotes de \textit{open source} que utilizam, para poderem empregar o código de forma compatível. Isso requer conhecimento das estipulações de licenciamento e sua aplicação ao longo dos projetos.
   \par \vspace{6pt}
-  Para garantir o cumprimento das licenças de \textit{open source}, as organizações precisam ter uma visão aprofundada de como os componentes de \textit{open source} estão a ser utilizados. Também é importante monitorar continuamente as licenças, pois o proprietário dos direitos autorais pode alterar a licença de uma biblioteca.
+  Para garantir o cumprimento das licenças de \textit{open source}, as organizações precisam ter uma visão aprofundada de como os componentes de \textit{open source} estão a ser utilizados. Também é importante monitorizar continuamente as licenças, pois o proprietário dos direitos autorais pode alterar a licença de uma biblioteca.
+  
   \item \textbf{Pacotes não mantidos}\\
-  Os pacotes de \textit{open source} são geralmente mantidos por um único desenvolvedor ou por uma pequena equipa, quando são mantidos. Os desenvolvedores de projetos de \textit{open source} da comunidade não têm obrigação de manter o software, e ele é disponibilizado "como está". 
+  Os pacotes de \textit{open source} são geralmente mantidos por um único desenvolvedor ou por uma pequena equipa, quando são mantidos. Os desenvolvedores de projetos de \textit{open source} da comunidade não têm obrigação de manter o software, e ele é disponibilizado "como está".
   \par \vspace{6pt}
-  Cabe aos utilizadores dedicar tempo e recursos para garantir que o código seja seguro. Felizmente, existem ferramentas úteis que podem simplificar este processo analisar pacotes de acordo com o nível de manutenção, envolvimento da comunidade, postura de segurança e popularidade, auxiliando na avaliação da saúde dos pacotes de \textit{open source} utilizados. 
+  Cabe aos utilizadores dedicar tempo e recursos para garantir que o código seja seguro. Felizmente, existem ferramentas úteis que podem simplificar este processo ao analisar pacotes de acordo com o nível de manutenção, envolvimento da comunidade, postura de segurança e popularidade, auxiliando na avaliação da saúde dos pacotes de \textit{open source} utilizados. 
 \end{itemize}

@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {6.2}Principais riscos}{8}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Software \textit {open source} em ambientes empresários}{9}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Porquê?}{9}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Beneficios}{9}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.2}Benefícios}{9}{subsection.7.2}%
 \contentsline {section}{\numberline {8}Conclusão}{10}{section.8}%
 \contentsline {section}{\numberline {9}Refer\^encias}{11}{section.9}%
 \contentsfinish 
